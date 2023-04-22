@@ -1,20 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&display=swap');
 
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Edu NSW ACT Foundation';
 }
 
 header{
     display: flex;
     align-items: center;
-    background-color: #ccd5ae;
+    background-color: #c75342;
     color: black;
     border: 2px black solid;
-    border-radius: .5rem;
+    border-radius: 2rem;
+    box-shadow: 10px 10px 5px rgb(0, 0, 0);
 }
 
 header img{
-    margin: 1rem;
+    margin: 2rem;
+    border: 2px black solid;
+    border-radius: 2rem;
+    box-shadow: 10px 10px 5px rgb(0, 0, 0);
 }
 
 header h1{
@@ -28,27 +32,32 @@ header div:nth-child(2){
 #content{
     margin: 0 auto;
     max-width: 640px;
-    background-color: #faedcd;
+    background-color: #c0959a;
+    border-radius: 2rem;
 }
 
 main h2{
     text-align: center;
 }
+
 ul li{
     padding: .5rem;
-    background-color: #ccd5ae;
+    background-color: #c75342;
+    border: 2px black solid;
+    border-radius: 2rem;
+    box-shadow: 10px 10px 5px rgb(0, 0, 0);
 }
 
-ul li:nth-child(even){
-    padding: .5rem;
-    background-color: #e9edc9;
+a:hover{
+    color: rgb(203, 153, 61);
 }
-a:visited{
-    color: black;
+
+a:visited {
+    color: rgb(55, 52, 50);
 }
 
 a{
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 p{
@@ -57,10 +66,11 @@ p{
 
 footer{
     align-items: center;
-    background-color: #ccd5ae;
+    background-color: #c75342;
     color: black;
     border: 2px black solid;
     text-align: center;
     padding: 1rem;
-    border-radius: .5rem;
+    border-radius: 2rem;
+    box-shadow: 10px 10px 5px rgb(0, 0, 0);
 }
