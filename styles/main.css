@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Ubuntu&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: #ccd5ae;
+    color: black;
+    border: 2px black solid;
+    border-radius: .5rem;
+}
+
+header img{
+    margin: 1rem;
+}
+
+header h1{
+    text-align: center;
+}
+
+header div:nth-child(2){
+    width: 100%;
+}
+
+#content{
+    margin: 0 auto;
+    max-width: 640px;
+    background-color: #faedcd;
+}
+
+main h2{
+    text-align: center;
+}
+ul li{
+    padding: .5rem;
+    background-color: #ccd5ae;
+}
+
+ul li:nth-child(even){
+    padding: .5rem;
+    background-color: #e9edc9;
+}
+a:visited{
+    color: black;
+}
+
+a{
+    color: black;
+}
+
+p{
+    margin: 1rem;
+}
+
+footer{
+    align-items: center;
+    background-color: #ccd5ae;
+    color: black;
+    border: 2px black solid;
+    text-align: center;
+    padding: 1rem;
+    border-radius: .5rem;
+}
