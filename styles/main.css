@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
 
 body{
-    font-family: 'Edu NSW ACT Foundation';
+    font-family: 'Rubik Wet Paint', cursive;
 }
 
 header{
     display: flex;
     align-items: center;
-    background-color: #c75342;
+    background-color: #902717;
     color: black;
     border: 2px black solid;
     border-radius: 2rem;
@@ -32,7 +33,7 @@ header div:nth-child(2){
 #content{
     margin: 0 auto;
     max-width: 640px;
-    background-color: #c0959a;
+    background-color: #807172;
     border-radius: 2rem;
 }
 
@@ -42,7 +43,7 @@ main h2{
 
 ul li{
     padding: .5rem;
-    background-color: #c75342;
+    background-color: #902717;
     border: 2px black solid;
     border-radius: 2rem;
     box-shadow: 10px 10px 5px rgb(0, 0, 0);
@@ -66,7 +67,7 @@ p{
 
 footer{
     align-items: center;
-    background-color: #c75342;
+    background-color: #902717;
     color: black;
     border: 2px black solid;
     text-align: center;
