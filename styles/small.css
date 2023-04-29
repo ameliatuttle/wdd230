@@ -6,24 +6,27 @@ body{
 }
 
 header{
-    display: flex;
-    align-items: center;
+    display: grid;
     background-color: #902717;
     color: black;
     border: 2px black solid;
-    border-radius: 2rem;
-    box-shadow: 10px 10px 5px rgb(0, 0, 0);
 }
 
 header img{
     margin: 2rem;
     border: 2px black solid;
-    border-radius: 2rem;
     box-shadow: 10px 10px 5px rgb(0, 0, 0);
+    justify-content: center;
+    align-content: center;
+}
+
+#picture {
+    text-align: center;
 }
 
 header h1{
     text-align: center;
+    font-size: 1.5rem;
 }
 
 header div:nth-child(2){
@@ -39,6 +42,7 @@ header div:nth-child(2){
 
 main h2{
     text-align: center;
+    font-size: 1rem;
 }
 
 ul li{
@@ -72,6 +76,4 @@ footer{
     border: 2px black solid;
     text-align: center;
     padding: 1rem;
-    border-radius: 2rem;
-    box-shadow: 10px 10px 5px rgb(0, 0, 0);
 }
