@@ -6,7 +6,7 @@ body{
 }
 
 header, footer {
-    background-color: rgb(146, 8, 146);
+    background-color: rgb(130, 5, 130);
     color: white;
     padding: 10%;
 }
@@ -34,7 +34,7 @@ img {
 }
 
 h3 {
-    background-color: rgb(247, 247, 52);
+    background-color: rgba(233, 233, 52, 0.818);
     border: 2px black solid;
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
