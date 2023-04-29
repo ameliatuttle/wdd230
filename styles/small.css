@@ -57,10 +57,6 @@ a:hover{
     color: rgb(203, 153, 61);
 }
 
-a:visited {
-    color: rgb(55, 52, 50);
-}
-
 a{
     color: rgb(0, 0, 0);
 }
