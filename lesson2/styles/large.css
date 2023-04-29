@@ -1,0 +1,20 @@
+@media only screen and (min-width: 60em) {
+    #content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    header, footer{
+        grid-column: 1/5;
+        padding: 5%;
+    }
+
+
+    #Repetition {
+        grid-column: 3/4;
+    }
+
+    header h1{
+        font-size: 2.5rem;
+    }
+}
