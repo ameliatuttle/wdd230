@@ -36,7 +36,7 @@ header div:nth-child(2){
 #content{
     margin: 0 auto;
     max-width: 640px;
-    background-color: #807172;
+    background-color: #afa3a4;
     border-radius: 2rem;
 }
 
@@ -54,7 +54,7 @@ ul li{
 }
 
 a:hover{
-    color: rgb(203, 153, 61);
+    color: rgb(209, 160, 68);
 }
 
 a{
@@ -67,8 +67,8 @@ p{
 
 footer{
     align-items: center;
-    background-color: #902717;
-    color: rgb(210, 207, 207);
+    background-color: #d35e4c;
+    color: black;
     border: 2px black solid;
     text-align: center;
     padding: 1rem;
