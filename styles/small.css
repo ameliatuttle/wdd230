@@ -36,7 +36,7 @@ header div:nth-child(2){
 #content{
     margin: 0 auto;
     max-width: 640px;
-    background-color: #ada4a5;
+    background-color: #807172;
     border-radius: 2rem;
 }
 
@@ -67,8 +67,8 @@ p{
 
 footer{
     align-items: center;
-    background-color: #d35e4c;
-    color: black;
+    background-color: #902717;
+    color: rgb(210, 207, 207);
     border: 2px black solid;
     text-align: center;
     padding: 1rem;
