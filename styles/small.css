@@ -7,7 +7,7 @@ body{
 
 header{
     display: grid;
-    background-color: #902717;
+    background-color: #d35e4c;
     color: black;
     border: 2px black solid;
 }
@@ -36,7 +36,7 @@ header div:nth-child(2){
 #content{
     margin: 0 auto;
     max-width: 640px;
-    background-color: #807172;
+    background-color: #ada4a5;
     border-radius: 2rem;
 }
 
@@ -47,7 +47,7 @@ main h2{
 
 ul li{
     padding: .5rem;
-    background-color: #902717;
+    background-color: #d35e4c;
     border: 2px black solid;
     border-radius: 2rem;
     box-shadow: 10px 10px 5px rgb(0, 0, 0);
@@ -67,7 +67,7 @@ p{
 
 footer{
     align-items: center;
-    background-color: #902717;
+    background-color: #d35e4c;
     color: black;
     border: 2px black solid;
     text-align: center;
