@@ -1,13 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body {
+    background-color: #F9F7DC;
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+}
+
 header {
-    background-color: aqua;
+    background-color: #CD6300;
 }
 
 footer {
-    background-color: aqua;
+    background-color: #CD6300;
 }
 
 header ul {
-    background-color: blue;
+    background-color: #FFCB65;
     padding-inline-start: 0px;
 }
 
@@ -22,8 +30,22 @@ header ul li a {
     text-decoration: none;
     color: white;
     padding: 1rem;
+    color: black;
 }
 
 header ul li a:hover {
-    background-color: blueviolet;
+    background-color: #cd63007c;
+}
+
+header ul li a:active {
+    background-color: #cd63007c;
+}
+
+
+
+.persona div img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
