@@ -49,3 +49,9 @@ header ul li a:active {
     margin-right: auto;
     width: 50%;
 }
+
+/* hamburgwe menu */
+#navbar {
+    display: none;
+}
+
