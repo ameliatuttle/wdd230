@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 body{
-    font-family: 'Rubik Wet Paint', cursive;
+    font-family: 'Roboto Mono', monospace;
 }
 
 header{
