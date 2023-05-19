@@ -1,55 +1,89 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 body {
-	font-size: .75em;
-	font-family: 'Josefin Sans', sans-serif;
-	color: black;
     background-color: #F9F7DC;
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    max-width: 1500px;
+    margin: 0 auto;
+    text-align: center;
 }
 
-header {
+header, footer{
     background-color: #CD6300;
-    margin: 0 auto;
     padding: 20px;
 }
 
-#flex-div {
-    display: flex;
+header {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
 }
 
-#logo-pic {
-    width: 50px;
+header ul {
+    background-color: #FFCB65;
+    padding-inline-start: 0px;
+    font-size: 1.25em;
 }
 
-#logo-pic img {
+header ul li {
+    list-style: none;
     width: 100%;
+    text-align: center;
 }
 
-#social-media {
-    grid-column: 3/4;
-}
-
-/* hamburger menu */
-
-#navbar{
-    background-color: var(--menu-bg-color);
+header ul li a {
+    display: block;
+    text-decoration: none;
     color: white;
+    padding: 1rem;
+    color: black;
+}
+
+header ul li a:hover {
+    background-color: #cd63007c;
+}
+
+header ul li a:active {
+    background-color: #cd63007c;
+}
+
+header h1 {
+  font-size: 1em;
+}
+
+aside {
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0.75rem 1rem;
+	background-color: #eee;
+}
+
+#date-box {
+  background-color: #CD6300;
+  padding: 5px;
+}
+
+/* hamburgwe menu */
+#navbar{
+    color: black;
     display: none;
     flex-direction: column;
     list-style: none;
     padding-inline-start: 0px;
     margin-block: 0px;
-  
+    width: 100%;    
   }
   
   #navbar-active{
-    background-color: var(--menu-highlight-color);
+    background-color: #cd63007c;
   }
   
   #menu-toggle{
     display: block;
     border: 2px solid black;
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: bold;
     background-color: var(--menu-highlight-color);
   }
@@ -79,7 +113,8 @@ header {
   }
   
   nav {
-    background-color: var(--menu-bg-color);
+    background-color: #FBCB65;
+    border: 1px solid black;
     margin: 0 auto;
     
   }
@@ -87,7 +122,7 @@ header {
   nav ul li {
     border: 1px solid black;
     width: 100%;
-    color: white;
+    color: black;
     text-align: center;
     
   }
@@ -96,23 +131,36 @@ header {
     display: block;
     padding: 1rem;
     text-decoration: none;    
-    color: white;
+    color: black;
     font-size: 1.25rem;
   }
   
   nav ul li a:hover{
-    background-color: var(--menu-highlight-color);
+    background-color: #934A04;
     color: black;
   }
-  
 
-#date-box {
-    grid-column: 1/6;
+  .box {
+  border: 1px solid black;
+  margin: 10px;
+  min-height: 100px;
+  background-color: #cd63006d;
 }
 
-aside {
-	margin: 0.5rem;
-	border: 1px solid #bbb;
-	padding: 0.75rem 1rem;
-	background-color: #eee;
+.inner-box {
+  border: 1px solid black;
+  margin: 10px;
+  min-height: 100px;
+}
+
+#join {
+  display: none;
+}
+
+#spot3 {
+  display: none;
+}
+
+footer {
+  font-size: .5em;
 }

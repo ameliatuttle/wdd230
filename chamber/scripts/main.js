@@ -1,3 +1,15 @@
+toggleButton = document.querySelector("#menu-toggle");
+
+toggleButton.addEventListener('click', (event) => {
+    navbar = document.querySelector("#navbar");
+    openSpan = document.querySelector("#menu-open");
+    closeSpan = document.querySelector("#menu-close")
+    navbar.classList.toggle('open');
+    openSpan.classList.toggle('open');
+    closeSpan.classList.toggle('open');
+});
+
+
 // select the DOM elements to manipulate (we will output to these)
 const datefield = document.querySelector("time");
 // for european/family history format with day first.
@@ -17,13 +29,9 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
 
 
-toggleButton = document.querySelector("#menu-toggle");
+const today = new Date();
+const currentYear = document.querySelector("#currentyear");
+currentYear.textContent = today.getFullYear();
 
-toggleButton.addEventListener('click', (event) => {
-    navbar = document.querySelector("#navbar");
-    openSpan = document.querySelector("#menu-open");
-    closeSpan = document.querySelector("#menu-close")
-    navbar.classList.toggle('open');
-    openSpan.classList.toggle('open');
-    closeSpan.classList.toggle('open');
-});
+const lastupdated = document.querySelector("#lastupdated");
+lastupdated.textContent = document.lastModified;

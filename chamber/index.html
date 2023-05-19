@@ -4,50 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="WDD 230 Chamber of Comerce Website for Amelia Tuttle">
-    <title>CS Chamber of Commerce</title>
-    <script src="./scripts/main.js" defer></script>
+    <meta name="description" content="Chamber of Commerce Site Plan for Amelia Tuttle | Home Page | Spring 2023">
+    <title>Chamber of Commerce Site Plan</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="./styles/small.css">
     <link rel="stylesheet" href="./styles/medium.css">
     <link rel="stylesheet" href="./styles/large.css">
+    <script src="./scripts/main.js" defer></script>
 </head>
 <body>
-    <header>
-        <div id="flex-div">
-            <div id="logo-pic">
-                <img src="./images/CSlogo.png" alt="Colorado Springs Chamber of Commerce Logo">
+    <div id="header-box">
+        <header>
+            <div id="logo-img-1">
+                <img src="./images/CSlogo.png" alt="Colorado Springs Chamber of Commerce Logo" width="50px">
             </div>
-            <div id="words">
-                <h1>Colorado Springs</h1>
-                <p>Chamber of Commerce</p>
+            <h1>Colorado Springs<br>Chamber of Comerce</h1>
+            <div id="social-medias">
+                <a href="https://www.facebook.com/" target="blank">
+                    <img src="./images/facebook-logo.png" alt="Facebook" width="50">
+                </a>
+                <a href="https://www.linkedin.com/feed/" target="blank">
+                    <img src="./images/linkedin-pic.png" alt="LinkedIn" width="30">
+                </a>
             </div>
-            <a href="https://www.facebook.com/" target="blank">
-                <img src="./images/facebook-logo.png" alt="Facebook" width="50">            </a>
-            <a href="https://www.linkedin.com/feed/" target="blank">
-                <img src="./images/linkedin-pic.png" alt="LinkedIn" width="30">
-            </a>
-        </div>
-        <div id="nav-div">
-            <nav>
-                <button id="menu-toggle"><span id="menu-open">&equiv;</span><span id="menu-close">X</span></button>
-                <ul id="navbar">
-                    <li class="active"><a href="index.html">Home Page</a></li>
-                    <li><a href="target-audience.html">Target Audience</a></li>
-                    <li><a href="design.html">Design</a></li>
-                </ul>
-            </nav>
-        </div>
+            <button id="menu-toggle"><span id="menu-open">&equiv;</span><span id="menu-close">X</span></button>
+        </header>
         <div id="date-box">
             <aside></aside>
         </div>
-    </header>
+        <nav>
+            <ul id="navbar">
+                <li class="active"><a href="index.html">Home Page</a></li>
+                <li><a href="target-audience.html">Target Audience</a></li>
+                <li><a href="design.html">Design</a></li>
+            </ul>
+        </nav>
+    </div>
     <main>
-
+        <div class="box" id="hero-box">
+            <p>Hero with site name and call to action</p>
+        </div>
+        <div class="box" id="event">
+            <p>Event</p>
+        </div>
+        <div class="box" id="weather">
+            <p>Weather</p>
+        </div>
+        <div class="box" id="news-release">
+            <p>News Release</p>
+        </div>
+        <div class="box" id="join">
+            <p>Join</p>
+        </div>
+        <div class="box" id="spotlights">
+            <div class="inner-box" id="spot1">
+                <p>Spotlight 1</p>
+            </div>
+            <div class="inner-box" id="spot2">
+                <p>Spotlight 2</p>
+            </div>
+            <div class="inner-box" id="spot3">
+                <p>Spotlight 3</p>
+            </div>
+        </div>
     </main>
     <footer>
-        <p>&copy; <span id="currentyear"></span> | Amelia Tuttle | Rexburg, ID</p>
-        <p>Last Updated: <span id="lastupdated"></span></p>
-    </footer>
+        <div id="footer1">
+            <div id="logo-img-2">
+                <img src="./images/CSlogo.png" alt="Colorado Springs Chamber of Commerce Logo" width="50px">
+            </div>
+            <h3>Colorado Springs<br>Chamber of Comerce</h3>
+            <p>(address here)</p>
+        </div>
+        <div id="footer2">
+            <p>email@gmail.com</p>
+            <p>(719)123-4567</p>
+            <p>Location Map</p>
+        </div>
+        <div id="footer3">
+            <hr>
+            <p>&copy;2023 Colorado Springs Chmber of Commerce | Amelia Tuttle | WDD 230 Project | Last Updated: <span id="lastupdated"></span></p>
+        </div>
+    </footer> 
 </body>
 </html>
