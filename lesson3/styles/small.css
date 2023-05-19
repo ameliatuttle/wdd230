@@ -4,14 +4,14 @@ body {
     background-color: #F9F7DC;
     font-family: 'Josefin Sans', sans-serif;
     color: black;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
 }
 
-header {
+header, footer{
     background-color: #CD6300;
-}
-
-footer {
-    background-color: #CD6300;
+    padding: 20px;
 }
 
 header ul {
@@ -41,7 +41,10 @@ header ul li a:active {
     background-color: #cd63007c;
 }
 
-
+#hero-img img, #color-schema img {
+    width: 100%;
+    padding: 20px;
+}
 
 .persona div img {
     display: block;
@@ -51,7 +54,77 @@ header ul li a:active {
 }
 
 /* hamburgwe menu */
-#navbar {
+#navbar{
+    color: black;
     display: none;
-}
-
+    flex-direction: column;
+    list-style: none;
+    padding-inline-start: 0px;
+    margin-block: 0px;
+    width: 100%;    
+  }
+  
+  #navbar-active{
+    background-color: #cd63007c;
+  }
+  
+  #menu-toggle{
+    display: block;
+    border: 2px solid black;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: var(--menu-highlight-color);
+  }
+  
+  #menu-open{
+    display: block;
+  }
+  
+  #menu-close{
+    display: none;
+  }
+  
+  #menu-open.open{
+    display: none;
+  }
+  
+  #menu-close.open{
+    display: block;
+  }
+  
+  #navbar.open{
+    display: flex;
+  }
+  
+  #navbar{
+    display: none;
+  }
+  
+  nav {
+    background-color: #FBCB65;
+    border: 1px solid black;
+    margin: 0 auto;
+    
+  }
+  
+  nav ul li {
+    border: 1px solid black;
+    width: 100%;
+    color: black;
+    text-align: center;
+    
+  }
+  
+  nav a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;    
+    color: black;
+    font-size: 1.25rem;
+  }
+  
+  nav ul li a:hover{
+    background-color: #934A04;
+    color: black;
+  }
+  

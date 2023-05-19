@@ -1,6 +1,16 @@
-@media screen and (min-width: 800px) {
-    header ul {
-        display: flex;
-        flex-direction: row;
+@media screen and (min-width: 640px) {
+    nav a {
+      padding: .5rem;
+      font-size: 1rem;
     }
-}
+  
+    #menu-toggle{
+      display: none;
+    }
+  
+    #navbar{
+      display: flex;
+      flex-direction: row;
+    }
+  
+  }  

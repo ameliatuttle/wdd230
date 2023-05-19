@@ -1,8 +1,10 @@
-menubutton =  document.querySelector("#menu-button");
+toggleButton = document.querySelector("#menu-toggle");
 
-menubutton.addEventListener("click", () =>
-{
-    document.querySelector("#navbar").classList.toggle("active");
-    document.querySelector("#menu-open").classList.toggle("active");
-    document.querySelector("#menu-closed").classList.toggle("active");
-})
+toggleButton.addEventListener('click', (event) => {
+    navbar = document.querySelector("#navbar");
+    openSpan = document.querySelector("#menu-open");
+    closeSpan = document.querySelector("#menu-close")
+    navbar.classList.toggle('open');
+    openSpan.classList.toggle('open');
+    closeSpan.classList.toggle('open');
+});
