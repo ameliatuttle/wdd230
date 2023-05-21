@@ -47,7 +47,7 @@ weekday[3] = "Wednesday";
 weekday[4] = "Thursday";
 weekday[5] = "Friday";
 weekday[6] = "Saturday";
-var day = "Monday";
+var day = weekday[bannernow.getDay()];
 
 if (day == "Tuesday" || day == "Monday") {
     alert("🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m");
