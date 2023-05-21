@@ -1,3 +1,4 @@
+//hamburger menu
 toggleButton = document.querySelector("#menu-toggle");
 
 toggleButton.addEventListener('click', (event) => {
@@ -10,13 +11,11 @@ toggleButton.addEventListener('click', (event) => {
 });
 
 
-// select the DOM elements to manipulate (we will output to these)
+//time box
 const datefield = document.querySelector("time");
-// for european/family history format with day first.
 const datefieldUK = document.querySelector("aside");
 const datemessage = document.querySelector("p");
 
-// derive the current date using a date object
 const now = new Date();
 const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 	now
@@ -24,14 +23,32 @@ const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 	dateStyle: "full"
 }).format(now);
-// "full" or long, medium, short options ... try them
 
 datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
 
 
+//last updated
 const today = new Date();
 const currentYear = document.querySelector("#currentyear");
 currentYear.textContent = today.getFullYear();
 
 const lastupdated = document.querySelector("#lastupdated");
 lastupdated.textContent = document.lastModified;
+
+
+//banner
+var bannernow  = new Date();        // current date/time
+
+var weekday = new Array(7);
+weekday[0]=  "Sunday";
+weekday[1] = "Monday";
+weekday[2] = "Tuesday";
+weekday[3] = "Wednesday";
+weekday[4] = "Thursday";
+weekday[5] = "Friday";
+weekday[6] = "Saturday";
+var day = "Monday";
+
+if (day == "Tuesday" || day == "Monday") {
+    alert("🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m");
+  } 
