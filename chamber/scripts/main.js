@@ -50,5 +50,16 @@ weekday[6] = "Saturday";
 var day = weekday[bannernow.getDay()];
 
 if (day == "Tuesday" || day == "Monday") {
-    alert("🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m");
+    document.querySelector("#banner").textContent = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m";
+
+    const injectCSS = css => {
+        let el = document.createElement('style');
+        el.type = 'text/css';
+        el.innerText = css;
+        document.head.appendChild(el);
+        return el;
+      };
+
+    injectCSS('#banner {padding: 5px;}');
+    injectCSS('#banner {background-color: #dc882c;');
   } 
