@@ -140,6 +140,10 @@ aside {
     color: black;
   }
 
+  #logo-img-1 img {
+    width: 50px;
+  }
+  
   .box {
   border: 1px solid black;
   margin: 10px;

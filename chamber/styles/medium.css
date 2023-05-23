@@ -3,6 +3,10 @@
         font-size: 2em;
     }
 
+    #logo-img-1 img {
+        width: 100px;
+      }
+
     footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
