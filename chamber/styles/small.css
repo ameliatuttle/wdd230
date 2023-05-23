@@ -12,7 +12,6 @@ body {
 header, footer{
     background-color: #CD6300;
     padding: 20px;
-    border: 1px solid #000;
 }
 
 header {
@@ -56,9 +55,10 @@ header h1 {
 
 aside {
 	margin: 0.5rem;
-	border: 1px solid #bbb;
 	padding: 0.75rem 1rem;
-	background-color: #eee;
+	background-color: #f9e8c6;
+  font-size: 1.25em;
+  font-weight: bold;
 }
 
 #date-box {
@@ -115,7 +115,6 @@ aside {
   
   nav {
     background-color: #FBCB65;
-    border: 1px solid black;
     margin: 0 auto;
     
   }
@@ -138,7 +137,7 @@ aside {
   
   nav ul li a:hover{
     background-color: #934A04;
-    color: black;
+    color: #f9e8c6;
   }
 
   #logo-img-1 img {

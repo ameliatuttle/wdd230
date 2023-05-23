@@ -62,4 +62,4 @@ if (day == "Tuesday" || day == "Monday") {
 
     injectCSS('#banner {padding: 5px;}');
     injectCSS('#banner {background-color: #dc882c;');
-  } 
+  };
