@@ -1,17 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 body {
-    background-color: #F9F7DC;
-    font-family: 'Josefin Sans', sans-serif;
-    color: black;
-    max-width: 1500px;
-    margin: 0 auto;
-    text-align: center;
+  background-color: #F9F7DC;
+  font-family: 'Josefin Sans', sans-serif;
+  color: black;
+  max-width: 1500px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 header, footer{
-    background-color: #CD6300;
-    padding: 20px;
+  background-color: #CD6300;
+  padding: 20px;
+}
+
+.footer-line {
+  border: 1px solid #F9F7DC;
+  width: 70%;
 }
 
 header {
@@ -19,34 +24,35 @@ header {
   justify-content: space-around;
   flex-direction: row;
   align-items: center;
+  color: #F9F7DC;
 }
 
 header ul {
-    background-color: #FFCB65;
-    padding-inline-start: 0px;
-    font-size: 1.25em;
+  background-color: #FFCB65;
+  padding-inline-start: 0px;
+  font-size: 1.25em;
 }
 
 header ul li {
-    list-style: none;
-    width: 100%;
-    text-align: center;
+  list-style: none;
+  width: 100%;
+  text-align: center;
 }
 
 header ul li a {
-    display: block;
-    text-decoration: none;
-    color: white;
-    padding: 1rem;
-    color: black;
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  color: black;
 }
 
 header ul li a:hover {
-    background-color: #cd63007c;
+  background-color: #cd63007c;
 }
 
-header ul li a:active {
-    background-color: #cd63007c;
+nav ul li.active a {
+  background-color: #dc882c;
 }
 
 header h1 {
@@ -66,85 +72,84 @@ aside {
   padding: 5px;
 }
 
+
 /* hamburgwe menu */
 #navbar{
-    color: black;
-    display: none;
-    flex-direction: column;
-    list-style: none;
-    padding-inline-start: 0px;
-    margin-block: 0px;
-    width: 100%;    
+  color: black;
+  display: none;
+  flex-direction: column;
+  list-style: none;
+  padding-inline-start: 0px;
+  margin-block: 0px;
+  width: 100%;    
   }
   
-  #navbar-active{
-    background-color: #cd63007c;
-  }
+#navbar-active{
+  background-color: #cd63007c;
+}
   
-  #menu-toggle{
-    display: block;
-    border: 2px solid black;
-    font-size: 2rem;
-    font-weight: bold;
-    background-color: var(--menu-highlight-color);
-  }
+#menu-toggle{
+  display: block;
+  border: 2px solid black;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: var(--menu-highlight-color);
+}
   
-  #menu-open{
-    display: block;
-  }
+#menu-open{
+  display: block;
+}
   
-  #menu-close{
-    display: none;
-  }
+#menu-close{
+  display: none;
+}
   
-  #menu-open.open{
-    display: none;
-  }
+#menu-open.open{
+  display: none;
+}
   
-  #menu-close.open{
-    display: block;
-  }
+#menu-close.open{
+  display: block;
+}
   
-  #navbar.open{
-    display: flex;
-  }
+#navbar.open{
+  display: flex;
+}
   
-  #navbar{
-    display: none;
-  }
+#navbar{
+  display: none;
+}
   
-  nav {
-    background-color: #FBCB65;
-    margin: 0 auto;
-    
-  }
+nav {
+  background-color: #FBCB65;
+  margin: 0 auto;    
+}
   
-  nav ul li {
-    border: 1px solid black;
-    width: 100%;
-    color: black;
-    text-align: center;
-    
-  }
+nav ul li {
+  border: 1px solid black;
+  width: 100%;
+  color: black;
+  text-align: center;    
+}
   
-  nav a {
-    display: block;
-    padding: 1rem;
-    text-decoration: none;    
-    color: black;
-    font-size: 1.25rem;
-  }
+nav a {
+  display: block;
+  padding: 1rem;
+  text-decoration: none;    
+  color: black;
+  font-size: 1.25rem;
+}
   
-  nav ul li a:hover{
-    background-color: #934A04;
-    color: #f9e8c6;
-  }
+nav ul li a:hover{
+  background-color: #934A04;
+  color: #f9e8c6;
+}
 
-  #logo-img-1 img {
-    width: 50px;
-  }
+#logo-img-1 img {
+  width: 50px;
+}
   
-  .box {
+.box {
   border: 1px solid black;
   margin: 10px;
   min-height: 100px;
