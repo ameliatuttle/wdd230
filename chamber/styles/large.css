@@ -1,4 +1,4 @@
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
     /* style for every page*/
         header h1 {
             font-size: 2.5em;
@@ -50,9 +50,17 @@
             grid-row: 3/4;
         }
 
+        #join button {
+            margin-top: 40px;
+        }
+
         #news-release {
             grid-column: 2/4;
             grid-row: 3/4;
+        }
+
+        #news-release h2 {
+            padding-top: 40px;
         }
 
         #spotlights {

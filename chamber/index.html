@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./styles/large.css">
     <script src="./scripts/main.js" defer></script>
     <script src="./scripts/time-box.js" defer></script>
+    <script src="./scripts/windchilll-new.js" defer></script>
 </head>
 <body>
     <div id="banner"></div>
@@ -20,7 +21,8 @@
             <div id="logo-img-1">
                 <img src="./images/CSlogo.png" alt="Colorado Springs Chamber of Commerce Logo">
             </div>
-            <h1>Colorado Springs<br>Chamber of Commerce</h1>
+            <h1 id="small-h1">CS Chamber of Commerce</h1>
+            <h1 id="big-h1">Colorado Springs Chamber of Commerce</h1>
             <div id="social-medias">
                 <a href="https://www.facebook.com/" target="blank"><img src="./images/facebook-logo.png" alt="Facebook" width="50" height="50"></a>
                 <a href="https://www.linkedin.com/feed/" target="blank"><img src="./images/linkedin-pic.png" alt="LinkedIn" width="50" height="50"></a>
@@ -29,9 +31,11 @@
         </header>
         <nav>
             <ul id="navbar">
-                <li class="active"><a href="index.html">Home Page</a></li>
-                <li><a href="target-audience.html">Target Audience</a></li>
-                <li><a href="design.html">Design</a></li>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
         <div id="date-box">
@@ -41,29 +45,63 @@
     <main id="home-page-main">
         <div class="box" id="hero-box">
             <img src="./images/hero-image.jpeg" alt="image of pikes peak in colorado springs">
-            <h1>Welcome to the Springs!</h1>
+            <h2>Welcome to the Springs!</h2>
+            <a href="#"><button>Join the Chamber</button></a>
         </div>
         <div class="box" id="event">
-            <p>Event</p>
+            <h2 class="h2-div">Water Balloon Fight!</h2>
+            <hr class="footer-line">
+            <h3>This Saturday! 💦</h3>
+            <p>Join us for a fundraiser and some splashin' fun outside the city pool!</p>
+            <p id="different-color">more info...</p>
         </div>
         <div class="box" id="weather">
-            <p>Weather</p>
+            <h2 class="h2-div">Weather</h2>
+            <hr class="footer-line">
+            <div id="inner-weather">
+                <img src="./images/sun.png" alt="sun pic" width="100">
+                <p>Temp: <span id="temperature"></span>°F</p>
+            </div>
+            <p>Windspeed: <span id="windspeed"></span> m/h</p>
+            <p>Windchill: <span id="windchill"></span></p>
         </div>
         <div class="box" id="news-release">
-            <p>News Release</p>
+            <h2 class="h2-div">News Release</h2>
+            <hr class="footer-line">
+            <p>According to all known laws
+                of aviation, there is no way a bee
+                should be able to fly.
+                Its wings are too small to get
+                its fat little body off the ground. The bee, of course, flies anyway
+                because bees don't care
+                what humans think is impossible. 🐝
+            </p>
         </div>
         <div class="box" id="join">
-            <p>Join</p>
+            <a href="#"><button>Join Us!</button></a>
+            <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
         </div>
         <div class="box" id="spotlights">
             <div class="inner-box" id="spot1">
-                <p>Spotlight 1</p>
+                <h2 class="h2-div">Tuttle Family Dentistry</h2>
+                <img src="./images/dental-care.png" alt="tooth picture" width="100">
+                <p>Family and Cosmetic Dentistry</p>
+                <hr class="footer-line">
+                <p>(719) 581-5575</p>
             </div>
             <div class="inner-box" id="spot2">
-                <p>Spotlight 2</p>
+                <h2 class="h2-div">Train with Jane</h2>
+                <img src="./images/man-lifting-weight.png" alt="man lifting bike picture" width="100">
+                <p>Persoanl Training</p>
+                <hr class="footer-line">
+                <p>(785) 236-1385</p>
             </div>
             <div class="inner-box" id="spot3">
-                <p>Spotlight 3</p>
+                <h2 class="h2-div">Amy's Bike Shop</h2>
+                <img src="./images/mountain-bike.png" alt="mountian bike picture" width="100">
+                <p>For your mountian bike needs!</p>
+                <hr class="footer-line">
+                <p>(719) 460-3445</p>
             </div>
         </div>
     </main>
@@ -73,16 +111,16 @@
                 <img src="./images/CSlogo.png" alt="Colorado Springs Chamber of Commerce Logo" width="50">
             </div>
             <h3>Colorado Springs<br>Chamber of Comerce</h3>
-            <p>(address here)</p>
+            <p>1234 Black Forest Rd</p>
         </div>
         <div id="footer2">
-            <p>email@gmail.com</p>
-            <p>(719)123-4567</p>
-            <p>Location Map</p>
+            <p><br><br>email@gmail.com</p>
+            <p>(719) 867-5309</p>
+            <a id="maps" href="https://www.google.com/maps/place/Colorado+Springs+Chamber+%26+EDC/@38.8321121,-104.8266047,17z/data=!3m2!4b1!5s0x87134f714e703df3:0xffa1a0f51f31eb2f!4m6!3m5!1s0x87134522445361f1:0x53f9516d30221d92!8m2!3d38.8321079!4d-104.8240298!16s%2Fg%2F12jshvxl5?entry=ttu" target="_blank">📌Location Map</a>
         </div>
         <div id="footer3">
             <hr class="footer-line">
-            <p>&copy;<span id="currentyear"></span> Colorado Springs Chmber of Commerce | Amelia Tuttle | WDD 230 Project | Last Updated: <span id="lastupdated"></span></p>
+            <p><br>&copy;<span id="currentyear"></span> Colorado Springs Chmber of Commerce | Amelia Tuttle | WDD 230 Project | Last Updated: <span id="lastupdated"></span></p>
         </div>
     </footer> 
 </body>

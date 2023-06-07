@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 /* style for every page */
@@ -21,6 +22,7 @@
     flex-direction: row;
     align-items: center;
     color: #F9F7DC;
+    font-size: 2em;
   }
 
   header ul {
@@ -62,6 +64,10 @@
   .footer-line {
     border: 1px solid #F9F7DC;
     width: 70%;
+  }
+
+  #maps {
+    color: black;
   }
 
   /* hamburger menu */
@@ -143,6 +149,15 @@
 /* end of style for everything*/
 
 /* style for the home page*/
+#social-medias img {
+  width: 35px;
+  height: 35px;
+}
+
+  #big-h1 {
+    display: none;
+  }
+
   aside {
     margin: 0.5rem;
     padding: 0.75rem 1rem;
@@ -156,17 +171,33 @@
     padding: 5px;
   }
 
+  .h2-div {
+    color: #a15a17;
+    font-weight: 800;
+  }
+
   .box {
     border: 1px solid black;
     margin: 10px;
     min-height: 100px;
     background-color: #cd63006d;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
   }
 
   .inner-box {
     border: 1px solid black;
     margin: 10px;
     min-height: 100px;
+  }
+
+  #different-color {
+    color: #848007;
+  }
+
+  #inner-weather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   #join {
@@ -184,11 +215,26 @@
   #hero-box img {
     width: 100%;
     height: 100%;
+    display: block;
   }
 
-  #hero-box h1 {
+  #hero-box h2 {
     position: absolute;
-    top: 25px;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 1.5em;
+  }
+
+  #hero-box button {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #348011;
+    color: #F9F7DC;
+    border: none;
+    box-shadow: 10px 10px 20px 2px rgba(0,0,0,.8);
+    padding: 10px 20px;
+    border-radius: 5px;
   }
