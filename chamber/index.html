@@ -19,7 +19,7 @@
     <div id="header-box">
         <header>
             <div id="logo-img-1">
-                <img src="./images/CSlogo.png" alt="Colorado Springs Chamber of Commerce Logo">
+                <img src="./images/CSlogo.webp" alt="Colorado Springs Chamber of Commerce Logo">
             </div>
             <h1 id="small-h1">CS Chamber of Commerce</h1>
             <h1 id="big-h1">Colorado Springs Chamber of Commerce</h1>
@@ -44,7 +44,11 @@
     </div>
     <main id="home-page-main">
         <div class="box" id="hero-box">
-            <img src="./images/hero-image.jpeg" alt="image of pikes peak in colorado springs">
+            <picture class="hero-img-mod">
+                <source media="(max-width: 700px)" srcset="./images/small.jpg" />
+                <source media="(min-width: 700px) and (max-width: 1000px)" srcset="images/medium.jpg"/>
+                <img class="hero-img" src="./images/large.jpg" alt="hero image" />
+            </picture>
             <h2>Welcome to the Springs!</h2>
             <button>Join the Chamber</button>
         </div>
@@ -108,7 +112,7 @@
     <footer>
         <div id="footer1">
             <div id="logo-img-2">
-                <img src="./images/CSlogo.png" alt="Colorado Springs Chamber of Commerce Logo" width="50">
+                <img src="./images/CSlogo.webp" alt="Colorado Springs Chamber of Commerce Logo" width="50">
             </div>
             <h3>Colorado Springs<br>Chamber of Comerce</h3>
             <p>1234 Black Forest Rd</p>
