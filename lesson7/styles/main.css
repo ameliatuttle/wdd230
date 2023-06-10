@@ -1,0 +1,38 @@
+table{
+    margin: 0 auto;
+    border-collapse: collapse;            
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+caption {
+   caption-side: bottom;
+   font-size: .75rem;
+   padding: .5rem;
+}
+td, th{
+    padding: .5rem;
+    text-align: center;
+}
+thead{
+    background-color: black;
+    color: white;
+}
+thead th{
+    border: 1px black solid;
+}
+.dark-grey{
+    background-color: rgb(63, 63, 63);
+}
+td{
+    border: thin solid grey;
+}
+.check{
+    font-weight: bold;
+    color: plum;
+}
+.redx{
+    font-weight: bold;
+    color: red;
+}
+tbody tr:nth-child(even){
+    background-color: lightgrey;
+}
