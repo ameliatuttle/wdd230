@@ -238,3 +238,45 @@
     padding: 10px 20px;
     border-radius: 5px;
   }
+
+/* join page */
+  .join-page-main {
+    display: block;
+    text-align: left;
+  }
+
+  section {
+    width: 50%;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+    min-width: 400px;
+  }
+
+  label {
+    display: block;
+    font-size: 1rem;
+  }
+
+  input {
+    display: block;
+    margin-bottom: .5rem;
+    padding: .5rem;
+  }
+
+  textarea {
+    display: block;
+    margin-bottom: .5rem;
+  }
+
+  .myradio {
+    display: inline;
+    margin: 0px 5px 8px 0px;
+  }
+
+  .mysubmit {
+    font-size: 1.5rem;
+    background-color: black;
+    color: var(--header-bg-colour);
+    padding: .5rem;
+  }
