@@ -115,8 +115,14 @@
         .join-section {
             width: 40%;
         }
+        
         #demographic {
             font-size: 1.5em;
         }
+
+        .discover-pics img:hover {
+            box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+            opacity: .9;
+          }
     /*end style for join page*/
   }  
