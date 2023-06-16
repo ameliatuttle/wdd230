@@ -105,4 +105,18 @@
             max-height: 300px;
         }
     /*end style for home page*/
+
+    /*style for join page*/
+        #join-page-main {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .join-section {
+            width: 40%;
+        }
+        #demographic {
+            font-size: 1.5em;
+        }
+    /*end style for join page*/
   }  

@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./styles/large.css">
     <script src="./scripts/main.js" defer></script>
     <script src="./scripts/time-box.js" defer></script>
-    <script src="./scripts/windchilll-new.js" defer></script>
+    <script src="./scripts/form-date.js" defer></script>
 </head>
 <body>
     <div id="banner"></div>
@@ -31,10 +31,10 @@
         </header>
         <nav>
             <ul id="navbar">
-                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
                 <li><a href="directory.html">Directory</a></li>
-                <li><a href="join.html">Join</a></li>
+                <li class="active"><a href="join.html">Join</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
@@ -43,46 +43,42 @@
         </div>
     </div>
     <main id="join-page-main">
-        <section>
+        <section class="join-section">
             <h2>Sign Up to be a Chamber Member</h2>
-            <form method="GET" action="page2.html">
-                <label >First Name*<input name="fname" type="text" value="" placeholder="Your First Name"
-                        size="30" maxlength="30" required>
+            <form method="GET" action="thankyou.html">
+                <label >First Name*<input name="fname" type="text" value="" placeholder="Ex: Jane" size="30" maxlength="30" required>
                 </label>
 
-                <label >Last Name*<input name="Lname" type="text" value="" placeholder="Your First Name" size="30"
-                        maxlength="30" required>
+                <label >Last Name*<input name="Lname" type="text" value="" placeholder="Ex: Doe" size="30" maxlength="30" required>
                 </label>
 
-                <label >Title*<input name="Lname" type="text" value="" placeholder="Your First Name" size="30"
-                        maxlength="30" required>
+                <label >Title*<input name="Lname" type="text" value="" placeholder="Ex: Mr/Mrs/Ms/Mx" size="30" maxlength="30" required>
                 </label>
 
-                <label >Email*<input name="Lname" type="email" value="" placeholder="Your First Name" size="30"
-                        maxlength="30" required>
+                <label >Email*<input name="Lname" type="email" value="" placeholder="example@email.com" size="30" maxlength="30" required>
                 </label>
 
-                <label >Cell Phone*<input name="Lname" type="text" value="" placeholder="Your First Name"
-                        size="30" maxlength="30" required>
+                <label >Cell Phone*<input name="Lname" type="text" value="" placeholder="(999) 999-9999" size="30" maxlength="30" required>
                 </label>
 
-                <label >Busisness Name*<input name="Lname" type="text" value="" placeholder="Your First Name"
-                        size="30" maxlength="30" required>
+                <label >Busisness Name*<input name="Lname" type="text" value="" placeholder="Ex: Train with Jane" size="30" maxlength="30" required>
                 </label>
 
-                <p>Tempature</p>
+                <p>Membership Level</p>
                 <label><input class="myradio" name="temp" type="radio" value="Non-Profit">Non-Profit</label>
                 <label><input class="myradio" name="temp" type="radio" value="Bronze">Bronze</label>
                 <label><input class="myradio" name="temp" type="radio" value="Silver">Silver</label>
                 <label><input class="myradio" name="temp" type="radio" value="Gold">Gold</label>
 
-                <label>Description: <textarea name="description" cols="40" rows="5"></textarea></label>
+                <label>Description: <textarea name="description" cols="40" rows="5" placeholder="Ex: A personal training and nutrition company."></textarea></label>
 
-                <input class="mysubmit" type="submit" name="go" value="Go and Do">
+                <input class="mysubmit" type="submit" name="go" value="Submit">
+
+                <span id="form-date"></span>
             </form>
         </section>
 
-        <section>
+        <section class="join-section">
             <h2>Membership Level Benifits</h2>
 
             <h3>NP Membership</h3>

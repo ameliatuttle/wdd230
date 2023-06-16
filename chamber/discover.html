@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./styles/large.css">
     <script src="./scripts/main.js" defer></script>
     <script src="./scripts/time-box.js" defer></script>
-    <script src="./scripts/windchilll-new.js" defer></script>
+    <script src="./scripts/last-visit.js" defer></script>
 </head>
 <body>
     <div id="banner"></div>
@@ -31,8 +31,8 @@
         </header>
         <nav>
             <ul id="navbar">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="discover.html">Discover</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="discover.html">Discover</a></li>
                 <li><a href="directory.html">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -43,7 +43,43 @@
         </div>
     </div>
     <main id="discover-page-main">
-
+        <p>You last visited this page <span id="last-vist">0</span> days ago.</p>
+        <div id="demographic">
+            <h1>Demographics</h1>
+            <p>
+                State: Colorado<br>
+                County: El Paso<br>
+                Land Area (mi^2): 195 sq/mi<br>
+                Density (mi^2): 2,520 sq/mi<br>
+                Growth Rate: .78%<br>
+                Rank in State: 2nd<br>
+                Rank in Country: 38th<br>
+            </p>
+        </div>
+        <section id="olympic-section">
+            <div class="discover-pics" id="olympic-div">
+                <img src="./images/olympic.jpeg" alt="olympic park picture" loading="lazy" width="80%">
+            </div>
+            <div class="a-bottom">
+                <a href="https://www.teamusa.org/About-the-USOPC/Olympic-Paralympic-Training-Centers/CSOPTC/About" target="_blank">Olympic Training Center</a>
+            </div>
+        </section>
+        <section id="garden-section">
+            <div class="discover-pics" id="garden-div"><img src="./images/garden-of-the-gods.jpeg" alt="garden of the gods picture" loading="lazy" width="80%"></div>
+            <div class="a-bottom"><a href="https://gardenofgods.com/" target="_blank">Garden of the Gods</a></div>
+        </section>
+        <section id="air-force-section">
+            <div class="discover-pics" id="af-div"><img src="./images/air-force.jpeg" alt="air force picture" loading="lazy" width="80%"></div>
+            <div class="a-bottom"><a href="https://www.military.com/base-guide/colorado-springs-military-bases" target="_blank">Air Force Base</a></div>
+        </section>
+        <section id="incline-section">
+            <div class="discover-pics" id="incline-div"><img src="./images/incline.webp" alt="incline picture" loading="lazy" width="80%"></div>
+            <div class="a-bottom"><a href="https://manitousprings.org/where-to-play/manitou-incline/" target="_blank">Manitou Incline</a></div>
+        </section>
+        <section id="summit-section">
+            <div class="discover-pics" id="summit-div"><img src="./images/summit.jpeg" alt="summit picture" loading="lazy" width="80%"></div>
+            <div class="a-bottom"><a href="https://www.pikes-peak.com/summit-visitor-center/" target="_blank">Pike's Peak Summit</a></div>
+        </section>
     </main>
     <footer>
         <div id="footer1">

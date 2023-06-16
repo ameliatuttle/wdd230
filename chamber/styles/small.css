@@ -49,7 +49,7 @@
     background-color: #cd63007c;
   }
 
-  header ul li.active a {
+  nav ul li.active {
     background-color: #dc882c;
   }
 
@@ -90,7 +90,7 @@
       border: 2px solid black;
       font-size: 2rem;
       font-weight: bold;
-      background-color: var(--menu-highlight-color);
+      background-color: #dc882c;
     }
       
     #menu-open{
@@ -149,10 +149,10 @@
 /* end of style for everything*/
 
 /* style for the home page*/
-#social-medias img {
-  width: 35px;
-  height: 35px;
-}
+  #social-medias img {
+    width: 35px;
+    height: 35px;
+  }
 
   #big-h1 {
     display: none;
@@ -240,17 +240,16 @@
   }
 
 /* join page */
-  .join-page-main {
+  #join-page-main {
     display: block;
     text-align: left;
   }
 
-  section {
-    width: 50%;
-    margin: 1rem;
-    padding: 1rem;
+  .join-section {
+    margin: 20px;
+    padding: 20px;
     border: 1px solid black;
-    min-width: 400px;
+    background-color: #FFCB65;
   }
 
   label {
@@ -267,16 +266,91 @@
   textarea {
     display: block;
     margin-bottom: .5rem;
+    padding: .5rem;
+    height: 75px;
+    width: 250px;
   }
 
   .myradio {
     display: inline;
-    margin: 0px 5px 8px 0px;
+    margin: 0px 10px 44px 10px;
   }
 
   .mysubmit {
     font-size: 1.5rem;
-    background-color: black;
-    color: var(--header-bg-colour);
+    background-color: #348011;
+    color: #F9F7DC;
     padding: .5rem;
+    margin-top: 30px;
   }
+
+  #form-date {
+    visibility: hidden;
+  }
+/*end of join page*/
+
+/*style for thank you page*/
+  #thank {
+    width: 50%;
+    background-color: #FFCB65;
+    border: 1px solid black;
+    margin: 5% 25% 5% 25%;
+    padding: 20px;
+  }
+
+  #thank h2 {
+    font-size: 3em;
+  }
+/*end style for thank you page*/
+
+/*style for discover page*/
+  .footer-line-discover {
+    border: 1px solid #CD6300;
+    width: 90%;
+    margin: 20px;
+  }
+
+  .discover-pics img{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 1px solid black;
+  }
+
+  .discover-pics img:hover {
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+    opacity: .9;
+  }
+
+  #discover-page-main a {
+    font-size: 2em;
+    color: #934A04;
+  }
+
+  .a-bottom {
+    margin-bottom: 30px;
+  }
+
+  #discover-page-main a:hover {
+    font-size: 2em;
+    color: #CD6300;
+  }
+
+  #discover-page-main section {
+    border: 1px solid black;
+    margin: 20px 10% 20px 10%;
+    width: 80%;
+    background-color: #cd63006d;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+  }
+
+  #demographic {
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 20px;
+    width: 80%;
+    background-color: #ffcc658d;
+    font-size: 1em;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+  }
+/*end style for discover page*/
+
