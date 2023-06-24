@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API</title>
+    <script src="chrome-extension://ljdobmomdgdljniojadhoplhkpialdid/page/prompt.js"></script>
+    <script src="chrome-extension://ljdobmomdgdljniojadhoplhkpialdid/page/runScript.js"></script>
+    <script src="chrome-extension://mooikfkahbdckldjjndioackbalphokd/assets/prompt.js"></script>
+    <script src="./scripts/weather-api.js" defer></script>
+    <style>
+        body {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>OpenWeatherMap.org API Test</h1>
+        <p>The current temperature in Rexberg, Idaho is <span id="current-temp"><strong>52</strong></span> °F</p>
+        <h2>Current Condition Icon</h2>
+        <figure>
+            <img src="https://openweathermap.org/img/wn/04n@2x.png" alt="broken clouds" id="weather-icon">
+            <figcaption>broken clouds</figcaption>
+        </figure>
+    </section>
+</body>
+</html>
