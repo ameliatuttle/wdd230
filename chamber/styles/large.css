@@ -80,4 +80,15 @@
             grid-row: 3/4;
         }
     /* end style for home page*/
+
+    /*style for directory page*/
+        #business-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        .business-list {
+            grid-column: 1/4;
+        }
+     /*end style for directory page*/
 }  

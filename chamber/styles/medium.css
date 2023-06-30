@@ -125,4 +125,20 @@
             opacity: .9;
           }
     /*end style for join page*/
+
+    /*style for directory page*/
+        #business-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .business-list {
+            grid-column: 1/3;
+        }
+
+        .business-list li{
+            display: flex;
+            justify-content: space-around;
+        }
+     /*end style for directory page*/
   }  

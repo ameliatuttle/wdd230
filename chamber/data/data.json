@@ -1,0 +1,86 @@
+{
+    "companies": [
+      {
+        "name": "Tuttle Family Dentistry",
+        "address": "6240 Woodmen Pk Vw, Colorado Springs",
+        "phone": "(719) 581-5575",
+        "website": "https://www.tuttlefamilydental.com",
+        "image": "dentistry.jpeg",
+        "membership": "Gold",
+        "description": "We are dedicated to providing top-notch dental care in a warm and welcoming environment, ensuring that each visit leaves you with a beautiful and healthy smile."
+      },
+      {
+        "name": "Black Forest Post Office",
+        "address": "11425 Black Forest Rd, Colorado Springs",
+        "phone": "(719) 495-4498",
+        "website": "https://www.usps.com/",
+        "image": "post-office.jpeg",
+        "membership": "Silver",
+        "description": "At the heart of our community, your local post office is here to serve you with convenience, efficiency, and a friendly smile. Whether you're sending packages, purchasing stamps, or accessing a range of postal services, we strive to make your experience a seamless one."
+      },
+      {
+        "name": "Helios Bicycle Service",
+        "address": "2201 N Weber St, Colorado Springs",
+        "phone": "(719) 344-1130",
+        "website": "http://heliosbicycleservice.com/",
+        "image": "bike.jpeg",
+        "membership": "Gold",
+        "description": "We are passionate about keeping your wheels rolling smoothly and ensuring your biking experience is nothing short of extraordinary."
+      },
+      {
+        "name": "Colorado Tackle Pro",
+        "address": "297 S 21st St, Colorado Springs",
+        "phone": "(719) 471-2984",
+        "website": "https://www.coloradotacklepro.com/",
+        "image": "fishing.jpeg",
+        "membership": "Bronze",
+        "description": "We are dedicated to providing top-of-the-line fishing gear that meets the needs of both seasoned anglers and beginners alike."
+      },
+      {
+        "name": "Pikes Peak Library",
+        "address": "5550 N Union Blvd, Colorado Springs",
+        "phone": "(719) 531-6333",
+        "website": "https://ppld.org/east-library",
+        "image": "ppld.jpeg",
+        "membership": "Silver",
+        "description": "Immerse yourself in a world of knowledge, exploration, and endless possibilities at Book Haven Library. Step inside our doors, and embark on a literary adventure that will captivate your mind, ignite your imagination, and expand your horizons."
+      },
+      {
+        "name": "Life Time",
+        "address": "4410 Royal Pine Dr, Colorado Springs",
+        "phone": "(719) 266-9900",
+        "website": "https://www.lifetime.life",
+        "image": "lifeTime.jpeg",
+        "membership": "Bronze",
+        "description": "We are committed to helping you achieve your health and fitness goals in a supportive and empowering environment."
+      },
+      {
+        "name": "Paint and Fire Pottery",
+        "address": "4857 N Academy Blvd, Colorado Springs",
+        "phone": "(719) 358-7653",
+        "website": "https://paintandfirepottery.com/",
+        "image": "pottery.jpeg",
+        "membership": "Gold",
+        "description": "Whether you're a seasoned potter or a curious beginner, we invite you to explore the joy and therapeutic nature of working with clay."
+      },
+      {
+        "name": "Peterson Space Force Base Aquatic Center",
+        "address": "404, 155 Ent Ave, Colorado Springs",
+        "phone": "(719) 556-4608",
+        "website": "http://www.21fss.com/about/aquatics/",
+        "image": "pool.jpeg",
+        "membership": "Silver",
+        "description": "Immerse yourself in crystal-clear waters, bask in the sun, and create unforgettable memories at our exquisite pool facility."
+      },
+      {
+        "name": "Bob's Discount Mattresses",
+        "address": "5671 N Academy Blvd, Colorado Springs",
+        "phone": "(719) 265-9371",
+        "website": "https://bobsdiscountmattresses.com/",
+        "image": "mattress.jpeg",
+        "membership": "Bronze",
+        "description": "We understand the importance of a good night's sleep and are dedicated to helping you find the perfect mattress that will ensure your ultimate comfort and support."
+      }
+    ]
+  }
+  

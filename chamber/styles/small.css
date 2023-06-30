@@ -249,6 +249,7 @@
     margin: 20px;
     padding: 20px;
     border: 1px solid black;
+    box-shadow: 10px 10px 20px 2px rgba(0,0,0,.8);
     background-color: #FFCB65;
   }
 
@@ -351,3 +352,69 @@
   }
 /*end style for discover page*/
 
+/* style for directory*/
+  .view-selector {
+    margin: 20px 0 10px 0;
+    text-align: center;
+  }
+
+  #view-toggle {
+    background-color: #348011;
+    color: #F9F7DC;
+    padding: .5rem;
+  }
+
+  #business-container {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .business-card {
+    border: 1px solid black;
+    margin: 20px 10% 20px 10%;
+    padding: 10px 0px 10px 0px;
+    width: 90%;
+    background-color: #cd63006d;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+  }
+
+  .business-card.gold {
+    box-shadow: 5px 5px 10px 2px #f8f005;
+  }
+
+  .business-card img {
+    border: 1px solid black;
+    width: 90%;
+    margin-bottom: 10px;
+  }
+
+  .business-card h2 {
+    margin: 0;
+  }
+
+  .business-card a {
+    color: #934A04;
+    margin: 0;
+  }
+
+  .business-card a:hover {
+    color: #CD6300;
+  }
+
+  .business-card p {
+    margin: 5px 0;
+  }
+
+  .business-list {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .business-list li {
+    margin-bottom: 10px;
+    background-color: #cd63006d;
+    padding: 10px;
+    margin: 5px 10px 5px 10px;
+  }
+/* end style for the directory page*/

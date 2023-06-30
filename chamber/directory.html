@@ -13,6 +13,8 @@
     <script src="./scripts/main.js" defer></script>
     <script src="./scripts/time-box.js" defer></script>
     <script src="./scripts/last-visit.js" defer></script>
+    <script src="./data/data.json"></script>
+    <script src="./scripts/cards.js"></script>
 </head>
 <body>
     <div id="banner"></div>
@@ -42,8 +44,16 @@
             <aside></aside>
         </div>
     </div>
-    <main id="discover-page-main">
-        
+    <main id="directory-page-main">
+        <h1>Business Directory</h1>
+        <div class="view-selector">
+          <label for="view-toggle"></label>
+          <select id="view-toggle">
+            <option value="card">Card View</option>
+            <option value="list">List View</option>
+          </select>
+        </div>
+        <div id="business-container"></div>
     </main>
     <footer>
         <div id="footer1">
