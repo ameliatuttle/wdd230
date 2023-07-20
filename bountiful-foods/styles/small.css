@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+/* style for every page */
+body {
+    background-color: #FFE5E5;
+    font-family: 'Inconsolata', monospace;
+    color: black;
+    max-width: 1500px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  header, footer{
+    background-color: #FE7295;
+    padding: 20px;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    font-size: 2em;
+  }
+
+  header ul {
+    background-color: #FBB3A5;
+    padding-inline-start: 0px;
+    font-size: 1.25em;
+  }
+
+  header ul li {
+    list-style: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  header ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    color: black;
+  }
+
+  header ul li a:hover {
+    background-color: #F4B7C6;
+  }
+
+  nav ul li.active {
+    background-color: #FF9286;
+  }
+
+  header h1 {
+    font-size: 1em;
+  }
+
+  footer {
+    font-size: .5em;
+    color: white;
+  }
+
+  .footer-line {
+    border: 1px solid #FFE5E5;
+    width: 70%;
+  }
+
+  #social-medias {
+    display: grid;
+  }
+  
+  #maps {
+    color: white;
+   }
+
+  /* hamburger menu */
+    #navbar{
+      color: black;
+      display: none;
+      flex-direction: column;
+      list-style: none;
+      padding-inline-start: 0px;
+      margin-block: 0px;
+      width: 100%;    
+      }
+      
+    #navbar-active{
+      background-color: #FF9286;
+    }
+      
+    #menu-toggle{
+      display: block;
+      border: none;
+      font-size: 2rem;
+      font-weight: bold;
+      background-color: #FF92B1;
+    }
+      
+    #menu-open{
+      display: block;
+    }
+      
+    #menu-close{
+      display: none;
+    }
+      
+    #menu-open.open{
+      display: none;
+    }
+      
+    #menu-close.open{
+      display: block;
+    }
+      
+    #navbar.open{
+      display: flex;
+    }
+      
+    #navbar{
+      display: none;
+    }
+      
+    nav {
+      background-color: #FBB3A5;
+      margin: 0 auto;    
+    }
+      
+    nav ul li {
+      border: none;
+      width: 100%;
+      color: black;
+      text-align: center;    
+    }
+      
+    nav a {
+      display: block;
+      padding: 1rem;
+      text-decoration: none;    
+      color: black;
+      font-size: 1.25rem;
+    }
+      
+    nav ul li a:hover{
+      background-color: #f4796b;
+      color: white;
+    }
+
+    #logo-img-1 img {
+      width: 50px;
+    }
+  /* end of hamburger menu */
+/* end of style for everything*/
+
+/* style for home page */
+    #hero-box img {
+        width: 100%;
+    }
+
+    #hero-box {
+        position: relative;
+      }
+
+    #hero-box button {
+        position: absolute;
+        bottom: 40%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        background-color: #cbeb62;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+
+    #hero-box button:hover {
+        position: absolute;
+        bottom: 40%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        background-color: #eb7962;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+
+    #bonus-hero {
+        display: none;
+    }
+
+    #summary {
+        padding: 10px;
+    }
+
+    #smoothieOTW {
+        margin: 10px 10px 30px 10px;
+        padding: 15px;
+        background-color: #F4B7C6;
+    }
+
+    .blink {
+        animation: blink-animation 1s steps(5, start) infinite;
+        -webkit-animation: blink-animation 1s steps(5, start) infinite;
+      }
+      @keyframes blink-animation {
+        to {
+          visibility: hidden;
+        }
+      }
+      @-webkit-keyframes blink-animation {
+        to {
+          visibility: hidden;
+        }
+      }
+
+    #smoothieOTW img {
+        width: 100%;
+    }
+
+    #google-map {
+     padding-bottom: 50%;
+     position: relative;
+     margin: 30px 15px 0px 15px;
+    }
+
+    #google-map iframe {
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        position: absolute;
+    }
+
+    #weather-box {
+        margin: 0px 15px 30px 15px;
+        padding: 15px;
+        background-color: #FBB3A5;
+    }
+/* end style for home page*/
+
+/* fresh page */
+#fresh-main {
+    display: block;
+    text-align: left;
+  }
+
+  .join-section {
+    margin: 50px 20px;
+    padding: 20px;
+    background-color: #FFC5BA;
+  }
+
+  label {
+    display: block;
+    font-size: 1rem;
+  }
+
+  input {
+    display: block;
+    margin-bottom: .5rem;
+    padding: .5rem;
+  }
+
+  textarea {
+    display: block;
+    margin-bottom: .5rem;
+    padding: .5rem;
+    height: 75px;
+    width: 250px;
+  }
+
+  .fruit-options {
+    margin-bottom: 50px;
+    margin-left: 10px;
+    display: block;
+  }
+
+  .myradio {
+    display: inline;
+    margin: 0px 10px 44px 10px;
+  }
+
+  .mysubmit {
+    font-size: 1.5rem;
+    background-color: #cbeb62;
+    padding: .5rem;
+    margin-top: 30px;
+    border: 1px solid white;
+  }
+
+  .mysubmit:hover {
+    font-size: 1.5rem;
+    background-color: #eb7962;
+    color: white;
+    padding: .5rem;
+    margin-top: 30px;
+    border: 1px solid black;
+  }
+
+  #form-date {
+    visibility: hidden;
+  }
+/*end of fresh page*/
+
+/* about us */
+  #historical {
+    margin: 10px;
+  }
+
+  #owner {
+    background-color: #F4B7C6;
+    margin: 10px;
+    padding: 20px 0px;
+  }
+
+  #owner img {
+    width: 80%;
+    height: 80%;
+  }
+
+  #contact-info {
+    background-color: #FBB3A5;
+    margin: 10px;
+    padding: 20px 0px;
+  }
+
+  #google-map-2 iframe{
+    width: 100%;
+  }
+
+  #attributes {
+    background-color: #FF92B1;
+    margin: 10px;
+    padding: 20px 0px;
+  }
+/* end about us */

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bountiful Foods home page for Amelia Tuttle | Home Page | Spring 2023">
+    <title>Bountiful Foods</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./styles/small.css">
+    <link rel="stylesheet" href="./styles/medium.css">
+    <link rel="stylesheet" href="./styles/large.css">
+    <script src="./scripts/main.js" defer></script>
+    <script src="./scripts/weatherapi.js" defer></script>
+    <script src="./scripts/count.js" defer></script>
+</head>
+<body>
+    <div id="header-box">
+        <header>
+            <div id="logo-img-1">
+                <img src="./images/logo.png" alt="Bountiful Foods Logo">
+            </div>
+            <h1 id="small-h1">Bountiful Foods</h1>
+            <div id="social-medias">
+                <a href="https://www.facebook.com/" target="blank"><img src="./images/facebook-logo.png" alt="Facebook" width="40" height="40"></a>
+                <a href="https://www.instagram.com//" target="blank"><img src="./images/instagram.png" alt="Facebook" width="40" height="40"></a>
+                <a href="https://www.linkedin.com/feed/" target="blank"><img src="./images/linkedin-pic.png" alt="LinkedIn" width="40" height="40"></a>
+            </div>
+            <button id="menu-toggle"><span id="menu-open">&equiv;</span><span id="menu-close">X</span></button>
+        </header>
+        <nav>
+            <ul id="navbar">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="fresh.html">Fresh</a></li>
+                <li><a href="aboutUs.html">About Us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main id="home-main">
+        <div id="both-hero">
+            <div id="hero-box">
+                <img src="./images/truck.jpeg" alt="Food truck picture" width="200" height="200" loading="lazy">
+                <button onclick="window.location.href='fresh.html'">Create your drink!</button>
+            </div>
+            <div id="bonus-hero">
+                <img src="./images/Fruit.png" alt="Fruit picture" width="200" height="200" loading="lazy">
+            </div>
+        </div>
+        <div id="bottom-grid">
+            <div id="summary">
+                <p>
+                    The ULTIMATE fresh fruit food truck experience. Savor SOCAL's finest fruits in every bite, 
+                    from custom salads to refreshing smoothies. Come spend a hot day with us at the beach with our vibrant creations on wheels!
+                </p>
+            </div>
+            <div id="smoothieOTW">
+                <h2><span class="blink">Smoothie of the Week</span></h2>
+                <img src="./images/smoothie.png" alt="smoothie of the week" loading="lazy">
+                <p>orange dreamsicle<br>10% off</p>
+            </div>
+            <div id="count">
+                <p>Specialty Drinks Ordered: <span id="submissionCount"></span></p>
+            </div>
+            <div id="google-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53444.440924753166!2d-117.42718815136718!3d33.1543394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc720deeeda1f7%3A0xa64a87d1cd4ef10f!2sCarlsbad%20State%20Beach!5e0!3m2!1sen!2sus!4v1689743513378!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div id="weather-box">
+                <p>Carlsbad, California temp is <span id="current-temp"></span>&deg;F</p>
+                <p>Current humidity is <span id="current-hum"></span>%</p>
+                <figure>
+                <img src="" alt="" id="weather-icon"/>
+                <figcaption></figcaption>
+                </figure>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div id="footer1">
+            <div id="logo-img-2">
+                <img src="./images/logo.png" alt="Colorado Springs Chamber of Commerce Logo" width="50">
+            </div>
+            <h3>Carlsbad, California<br>Bountiful Foods</h3>
+            <p>1234 Cannon Rd</p>
+        </div>
+        <div id="footer2">
+            <p><br><br>email@gmail.com</p>
+            <p>(719) 867-5309</p>
+            <a id="maps" href="https://www.google.com/maps/place/Carlsbad+State+Beach/@33.1543394,-117.4271882,13z/data=!4m10!1m2!2m1!1scarlsbad+ca+beach!3m6!1s0x80dc720deeeda1f7:0xa64a87d1cd4ef10f!8m2!3d33.1543394!4d-117.3509705!15sChFjYXJsc2JhZCBjYSBiZWFjaFoTIhFjYXJsc2JhZCBjYSBiZWFjaJIBBWJlYWNomgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJ6ZFc4elpFSkJFQUXgAQA!16s%2Fg%2F11bxf486lm?entry=ttu" target="_blank">📌Location Map</a>
+        </div>
+        <div id="footer3">
+            <hr class="footer-line">
+            <p><br>&copy;<span id="currentyear"></span> Bountiful Foods | Amelia Tuttle | WDD 230 Project | Last Updated: <span id="lastupdated"></span></p>
+        </div>
+    </footer> 
+</body>
+</html>

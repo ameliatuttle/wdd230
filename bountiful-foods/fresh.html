@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bountiful Foods fresh page for Amelia Tuttle | Home Page | Spring 2023">
+    <title>Fresh</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./styles/small.css">
+    <link rel="stylesheet" href="./styles/medium.css">
+    <link rel="stylesheet" href="./styles/large.css">
+    <script src="./scripts/main.js" defer></script>
+    <script src="./scripts/storeDrink.js" defer></script>
+    <script src="./scripts/setCount.js" defer></script>
+</head>
+<body>
+    <div id="header-box">
+        <header>
+            <div id="logo-img-1">
+                <img src="./images/logo.png" alt="Bountiful Foods Logo">
+            </div>
+            <h1 id="small-h1">Bountiful Foods</h1>
+            <div id="social-medias">
+                <a href="https://www.facebook.com/" target="blank"><img src="./images/facebook-logo.png" alt="Facebook" width="40" height="40"></a>
+                <a href="https://www.instagram.com//" target="blank"><img src="./images/instagram.png" alt="Facebook" width="40" height="40"></a>
+                <a href="https://www.linkedin.com/feed/" target="blank"><img src="./images/linkedin-pic.png" alt="LinkedIn" width="40" height="40"></a>
+            </div>
+            <button id="menu-toggle"><span id="menu-open">&equiv;</span><span id="menu-close">X</span></button>
+        </header>
+        <nav>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="fresh.html">Fresh</a></li>
+                <li><a href="aboutUs.html">About Us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main id="fresh-main">
+        <section class="join-section">
+            <h2>Custom Make Your Specialty Drink Now!</h2>
+            <form id="myForm" method="GET" action="orderConfirmation.html">
+            <label>First Name*
+                <input name="fname" type="text" value="" placeholder="Ex: Jane" size="30" maxlength="30" required>
+            </label>
+
+            <label>Email*
+                <input name="email" type="email" value="" placeholder="example@email.com" size="30" maxlength="30" required>
+            </label>
+
+            <label>Cell Phone*
+                <input name="cellphone" type="tel" value="" placeholder="(999) 999-9999" size="30" maxlength="30" required>
+            </label>
+
+            <p>Fruit Options (if you choose the smoothie of the week you cannot select other fruit)</p>
+            <select class="fruit-options" name="fruit1">
+                <option value="">Select</option>
+                <option value="Strawberry">Strawberry</option>
+                <option value="Banana">Banana</option>
+                <option value="Kiwi">Kiwi</option>
+                <option value="Lychee">Lychee</option>
+                <option value="Pineapple">Pineapple</option>
+            </select>
+        
+            <select class="fruit-options" name="fruit2">
+                <option value="">Select</option>
+                <option value="Strawberry">Strawberry</option>
+                <option value="Banana">Banana</option>
+                <option value="Kiwi">Kiwi</option>
+                <option value="Lychee">Lychee</option>
+                <option value="Pineapple">Pineapple</option>
+            </select>
+        
+            <select class="fruit-options" name="fruit3">
+                <option value="">Select</option>
+                <option value="Strawberry">Strawberry</option>
+                <option value="Banana">Banana</option>
+                <option value="Kiwi">Kiwi</option>
+                <option value="Lychee">Lychee</option>
+                <option value="Pineapple">Pineapple</option>
+            </select>
+
+            <p>Smoothie of the Week (get 10% off with this option)</p>
+            <label><input class="myradio" name="OTW" type="radio" value="OD">Orange Dreamsicle</label>
+
+            <label>Special Instructions:
+                <textarea name="description" cols="40" rows="5" placeholder="Ex: Please put extra ice."></textarea>
+            </label>
+
+            <p>NOTE: Payment is received when the drink is picked up.</p>
+
+            <input class="mysubmit" type="submit" name="go" value="Submit order">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div id="footer1">
+            <div id="logo-img-2">
+                <img src="./images/logo.png" alt="Colorado Springs Chamber of Commerce Logo" width="50">
+            </div>
+            <h3>Carlsbad, California<br>Bountiful Foods</h3>
+            <p>1234 Cannon Rd</p>
+        </div>
+        <div id="footer2">
+            <p><br><br>Contact Info:</p>
+            <p>email@gmail.com</p>
+            <p>(719) 867-5309</p>
+            <a id="maps" href="https://www.google.com/maps/place/Carlsbad+State+Beach/@33.1543394,-117.4271882,13z/data=!4m10!1m2!2m1!1scarlsbad+ca+beach!3m6!1s0x80dc720deeeda1f7:0xa64a87d1cd4ef10f!8m2!3d33.1543394!4d-117.3509705!15sChFjYXJsc2JhZCBjYSBiZWFjaFoTIhFjYXJsc2JhZCBjYSBiZWFjaJIBBWJlYWNomgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJ6ZFc4elpFSkJFQUXgAQA!16s%2Fg%2F11bxf486lm?entry=ttu" target="_blank">📌Location Map</a>
+        </div>
+        <div id="footer3">
+            <hr class="footer-line">
+            <p><br>&copy;<span id="currentyear"></span> Bountiful Foods | Amelia Tuttle | WDD 230 Project | Last Updated: <span id="lastupdated"></span></p>
+        </div>
+    </footer> 
+</body>
+</html>

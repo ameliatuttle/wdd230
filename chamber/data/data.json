@@ -6,8 +6,19 @@
         "phone": "(719) 581-5575",
         "website": "https://www.tuttlefamilydental.com",
         "image": "dentistry.jpeg",
+        "image2": "dental-care.png",
         "membership": "Gold",
         "description": "We are dedicated to providing top-notch dental care in a warm and welcoming environment, ensuring that each visit leaves you with a beautiful and healthy smile."
+      },
+      {
+        "name": "Train with Jane",
+        "address": "9684 Lochwinnoch ln, Colorado Springs",
+        "phone": "(719) 471-2984",
+        "website": "https://www.lifetime.life",
+        "image": "jane.jpg",
+        "image2": "man-lifting-weight.png",
+        "membership": "Gold",
+        "description": "We are dedicated to providing top-of-the-line fishing gear that meets the needs of both seasoned anglers and beginners alike."
       },
       {
         "name": "Black Forest Post Office",
@@ -15,6 +26,7 @@
         "phone": "(719) 495-4498",
         "website": "https://www.usps.com/",
         "image": "post-office.jpeg",
+        "image2": "email.png",
         "membership": "Silver",
         "description": "At the heart of our community, your local post office is here to serve you with convenience, efficiency, and a friendly smile. Whether you're sending packages, purchasing stamps, or accessing a range of postal services, we strive to make your experience a seamless one."
       },
@@ -24,17 +36,8 @@
         "phone": "(719) 344-1130",
         "website": "http://heliosbicycleservice.com/",
         "image": "bike.jpeg",
-        "membership": "Gold",
-        "description": "We are passionate about keeping your wheels rolling smoothly and ensuring your biking experience is nothing short of extraordinary."
-      },
-      {
-        "name": "Colorado Tackle Pro",
-        "address": "297 S 21st St, Colorado Springs",
-        "phone": "(719) 471-2984",
-        "website": "https://www.coloradotacklepro.com/",
-        "image": "fishing.jpeg",
         "membership": "Bronze",
-        "description": "We are dedicated to providing top-of-the-line fishing gear that meets the needs of both seasoned anglers and beginners alike."
+        "description": "We are passionate about keeping your wheels rolling smoothly and ensuring your biking experience is nothing short of extraordinary."
       },
       {
         "name": "Pikes Peak Library",
@@ -82,5 +85,4 @@
         "description": "We understand the importance of a good night's sleep and are dedicated to helping you find the perfect mattress that will ensure your ultimate comfort and support."
       }
     ]
-  }
-  
+}
