@@ -331,6 +331,9 @@ body {
     background-color: #FF92B1;
     margin: 10px;
     padding: 20px 0px;
+  }
+
+  #attributes a {
     color: black;
   }
 /* end about us */
